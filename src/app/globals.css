@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* scrolling */
+@layer base {
+  body {
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+  }
+}
