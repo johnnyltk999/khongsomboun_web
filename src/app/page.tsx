@@ -7,7 +7,7 @@ import Services from "./components/services/Services";
 import BackToTopButton from "./components/backtotop/BackToTop";
 import Portfolio from "./components/portfolio/Portfolio";
 import Heroe from "./components/heroe/Heroe";
-import Timeline from "./components/ProjectTimline/Project";
+// import Timeline from "./components/ProjectTimline/Project";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <Services></Services>
       <About></About>
       <Portfolio></Portfolio>
-      <Timeline></Timeline>
+      {/* <Timeline></Timeline> */}
       <Customer></Customer>
       <hr className="my-6 border-gray-600" />
       <Footter></Footter>

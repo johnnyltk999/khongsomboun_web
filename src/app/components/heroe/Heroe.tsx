@@ -9,7 +9,7 @@ export default function Home() {
       {/* Add padding on small screens */}
       <div className="flex flex-col md:flex-row justify-center items-center mt-10">
         <Image
-          className="z-20 w-40 h-40 md:w-64 md:h-64 lg:w-96 lg:h-96 transform transition duration-500 hover:scale-105 shadow-xl rounded-lg"
+          className="z-20 w-40 h-40 md:w-64 md:h-64 lg:w-96 lg:h-96 "
           src={Logo}
           alt="logo"
           width={400}
@@ -27,10 +27,10 @@ export default function Home() {
           </h2>
         </div>
       </div>
-      <a href="#projects">
+      <a href="#about">
         <div className="mt-10 flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
-          <button className="w-44 h-12 rounded-md border-2 border-primaryBase text-white text-sm transition duration-300 hover:bg-primaryBase">
-            ໂຄງການຜ່ານມາ
+          <button className="w-44 h-12 rounded-md border-2 border-primaryBase text-gray-500 text-sm transition duration-300 hover:bg-primaryBase">
+            ກ່ຽວກັບເຮົາ
           </button>
         </div>
       </a>

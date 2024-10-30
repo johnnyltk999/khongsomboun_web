@@ -5,7 +5,7 @@ import Vision from "../../../../public/pictures/vision.png";
 export default function Page() {
   return (
     <section id="about">
-      <div className="container mx-auto p-10 bg-background text-default rounded-xl shadow-lg">
+      <div className="container mx-auto p-10 bg-background text-default rounded-xl">
         {/* Title */}
         <h1 className="text-primaryBase text-4xl font-extrabold text-center my-16">
           ກ່ຽວກັບເຮົາ
@@ -28,7 +28,7 @@ export default function Page() {
           </div>
 
           {/* Right Column - Text Description */}
-          <div className="text-lg leading-relaxed text-primarySubcontent relative">
+          <div className="text-lg leading-relaxed text-gray-500 relative">
             <p>
               ບໍລິສັດຄົງສົມບູນເຕັກໂນໂລຍີ (KHONGSOMBOUNTECHNOLOGY)
               ແມ່ນໄດ້ປ່ຽນຊື່ຈາກ ບໍລິສັດ ວຽງຈັນລະບົບຮັກສາຄວາມປອດໄພ ແລະ ໄອທີ

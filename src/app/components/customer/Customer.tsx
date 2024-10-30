@@ -10,7 +10,7 @@ export default function page() {
         <h1 className="text-red-600 text-3xl font-bold text-center mb-10 pt-10">
           ລູກຄ້າຂອງພວກເຮົາ
         </h1>
-        <div className="h-[25rem] rounded-md flex flex-col antialiased  dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+        <div className="h-[25rem] rounded-md flex flex-col antialiased  dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden bg-primaryBase">
           <InfiniteMovingCards
             items={testimonials}
             direction="right"
